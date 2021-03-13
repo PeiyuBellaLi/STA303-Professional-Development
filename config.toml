@@ -59,7 +59,16 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "My name is Peiyu Li."
+        [[params.aboutme.list]]
+            description = "Undergraduate student with proven organizational, and analytical skills."
+        [[params.aboutme.list]]
+            description = "Highly motivated, conscientious, and exceptionally patient individual who loves to work in a dynamic, fast-paced environment."
+        [[params.aboutme.list]]
+            description = "Fast learner with quick adaption to new concepts, and technologies."
+        [[params.aboutme.list]]
+            description = "Excellent team player with great communication and interpersonal skills."
+        [[params.aboutme.list]]
+            description = "Seeking to apply my abilities to intern positions such as Data Analyst."
 
     # Social Experience section
     [params.experience]

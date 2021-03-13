@@ -1,3 +1,5 @@
+{{ range.Site.Params.aboutme.list }}
 <p class="markdownify">
-  {{ .Site.Params.aboutme.description | markdownify }}
+  {{ .description | markdownify }}
 </p>
+{{ end }}
