@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Aafu theme"
+    title = "Peiyu (Bella) Li"
     author = "Peiyu Li"
     description = "Website title"
 
@@ -105,15 +105,15 @@ theme = "aafu"
 
         [[params.project.list]]
             title = "Analyzing the Effects of Age Groups on the Outcomes of COVID-19"
-            url = "#"
+            url = "https://github.com/PeiyuBellaLi/Analyzing-the-Effects-of-Age-Groups-on-the-Outcomes-of-COVID-19"
             description = """* Analyzed if people older than 60 are more likely to die due to COVID-19 based on the COVID-19 case details data in Canada. \n * The conclusion is being older than 60 years old will significantly increase the probability of mortality. \n * Used propensity score matching and logistic regression. \n * Evaluate the performance of the model by using ROC curve."""
         [[params.project.list]]
             title = "Prediction of the Overall Popular Vote of the 2020 American Federal Election"
-            url = "#"
+            url = "https://github.com/PeiyuBellaLi/Prediction-of-the-Overall-Popular-Vote-of-the-2020-American-Federal-Election"
             description = """Used logistic regression with the post-stratification technique. \n * The prediction of the popular vote for Donald Trump is 40%. (Predicted before the actual 2020 American Federal Election.) \n * The model was selected by comparing AIC values. \n * Confusion matrix and ROC curve were used to check the accuracy of the model."""
         [[params.project.list]]
             title = "Prediction of the admission rates for colleges and universities in US"
-            url = "#"
+            url = "https://github.com/PeiyuBellaLi/Prediction-of-the-admission-rates-for-colleges-and-universities-in-US"
             description = "* Investigated which of the factors shows the most significant relationship with admission rate, such as percentage of undergraduates receiving Pell grant. \n * The model was selected using stepwise selection based on AIC and BIC values. \n * Created residual plots and Normal Q-Q plot to diagnose the model \n * Applied power transform to fix non-linearity"
 
     # Skill section
