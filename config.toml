@@ -76,15 +76,17 @@ theme = "aafu"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            position = "Teaching Assistant"
+            dates = "June 2019 - July 2019"
+            company = "JNC Study Abroad Platform & Jinan University"
+            location = "Guangzhou, Guangdong, China"
+            details = """*  Assisted Prof. Stefan Kautsch in Introduction to Astronomy, Prof. Yan Shi in Introduction to Statistics, and Prof. Hynek Boril in Linear Algebra. \n * Registered student information, recorded attendance, prepared lecture materials. \n * Provided weekly tutorial sessions, after class Q&A, and marking. \n * Built solid organizational and communication skills. """
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            url = "#"
-            company = "Company Name"
+            position = "Volunteer Teacher"
+            dates = "May 2019 – June 2019"
+            company = "Liang'an National Secondary School"
+            location = "Liang'an Village, Zhongshan County, Hezhou, Guangxi, China"
+            details = """* Worked in an impoverished area as a volunteer from the Chinese Volunteer Association in University of Toronto. \n * Taught Grade 9 students English and Mathematics, and helped them to prepare for the senior high school entrance examination. \n * Visited and supported families of those students who are in relatively poor financial condition but have excellent academic performance. \n * Sponsored, designed, organized and hosted an event to celebrate a local festival."""
 
     # Education section
     [params.education]
