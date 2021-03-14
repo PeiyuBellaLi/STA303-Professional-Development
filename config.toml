@@ -97,7 +97,11 @@ theme = "aafu"
             college = "University of Toronto - St. George Campus"
             dates = "2018 - present"
             details = """* Specialist in Statistical Science \n * Focus in Social Psychology \n * Mathematics Minor"""
-
+        [[params.education.list]]
+            degree = "Dean’s List Scholar"
+            college = "University of Toronto - St. George Campus"
+            dates = "2020 Summer"
+        
     # Statistical Project section
     [params.project]
         title = "Statistical Projects"
