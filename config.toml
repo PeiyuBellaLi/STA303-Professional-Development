@@ -92,23 +92,11 @@ theme = "aafu"
     [params.education]
         title = "Education"
         icon = "fas fa-graduation-cap"
-
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
-        [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "Honors Bachelor of Science"
+            college = "University of Toronto - St. George Campus"
+            dates = "2018 - present"
+            details = """* Specialist in Statistical Science \n * Focus in Social Psychology \n * Mathematics Minor"""
 
     # Statistical Project section
     [params.project]
@@ -116,21 +104,17 @@ theme = "aafu"
         icon = "fas fa-project-diagram"
 
         [[params.project.list]]
-            title = "Project 1"
+            title = "Analyzing the Effects of Age Groups on the Outcomes of COVID-19"
             url = "#"
-            description = "Description of the project"
+            description = """* Analyzed if people older than 60 are more likely to die due to COVID-19 based on the COVID-19 case details data in Canada. \n * The conclusion is being older than 60 years old will significantly increase the probability of mortality. \n * Used propensity score matching and logistic regression. \n * Evaluate the performance of the model by using ROC curve."""
         [[params.project.list]]
-            title = "Project 2"
+            title = "Prediction of the Overall Popular Vote of the 2020 American Federal Election"
             url = "#"
-            description = "Description of the project"
+            description = """Used logistic regression with the post-stratification technique. \n * The prediction of the popular vote for Donald Trump is 40%. (Predicted before the actual 2020 American Federal Election.) \n * The model was selected by comparing AIC values. \n * Confusion matrix and ROC curve were used to check the accuracy of the model."""
         [[params.project.list]]
-            title = "Project 3"
+            title = "Prediction of the admission rates for colleges and universities in US"
             url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 4"
-            url = "#"
-            description = "Description of the project"
+            description = "* Investigated which of the factors shows the most significant relationship with admission rate, such as percentage of undergraduates receiving Pell grant. \n * The model was selected using stepwise selection based on AIC and BIC values. \n * Created residual plots and Normal Q-Q plot to diagnose the model \n * Applied power transform to fix non-linearity"
 
     # Skill section
     [params.skill]
@@ -139,11 +123,20 @@ theme = "aafu"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
-            skill = "Skill 1, Skill 2"
-            skillrating = 90
-        [[params.skill.list]]
-            skill = "Skill 3"
+            skill = "Python"
             skillrating = 80
         [[params.skill.list]]
-            skill = "Skill 4"
-            skillrating = 50
+            skill = "R"
+            skillrating = 80
+        [[params.skill.list]]
+            skill = "SQL"
+            skillrating = 70
+        [[params.skill.list]]
+            skill = "Git"
+            skillrating = 60
+        [[params.skill.list]]
+            skill = "Microsoft Office"
+            skillrating = 80
+        [[params.skill.list]]
+            skill = "SAS Certified Specialist: Base Programming"
+            skillrating = 100
